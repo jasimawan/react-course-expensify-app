@@ -1,6 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import {AddExpensePage} from '../../Components/AddExpensePage';
+import {AddExpensePage} from '../../components/AddExpensePage';
 import expenses from "../fixtures/expenses";
 
 let addExpense, history , wrapper;
