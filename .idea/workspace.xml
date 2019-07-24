@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4711261-8eca-4ebe-b7ab-3aa33603c02d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddExpensePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddExpensePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseDashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseDashboardPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/configureStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/actions/expenses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/actions/expenses.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/components/AddExpensePage.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/AddExpensePage.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseDashboardPage.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseDashboardPage.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseForm.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseForm.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseListItem.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseListItem.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/selectors/expenses-total.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/selectors/expenses-total.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="c4711261-8eca-4ebe-b7ab-3aa33603c02d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/public/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,10 +42,11 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="development" value="4" />
-          <entry key="gitignore" value="4" />
+          <entry key="gitignore" value="5" />
           <entry key="html" value="2" />
           <entry key="js" value="157" />
           <entry key="json" value="17" />
+          <entry key="lock" value="1" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
           <entry key="rnc" value="1" />
@@ -80,8 +61,9 @@
           <entry key="JavaScript" value="154" />
           <entry key="Jest Snapshot" value="22" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="RNG Compact" value="1" />
+          <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -109,19 +91,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env.development">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/yarn.lock">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -204,7 +182,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -367,7 +345,7 @@
       <workItem from="1563877593187" duration="2202000" />
       <workItem from="1563879910161" duration="624000" />
       <workItem from="1563965819471" duration="6227000" />
-      <workItem from="1563972319608" duration="2693000" />
+      <workItem from="1563972319608" duration="3815000" />
     </task>
     <servers />
   </component>
@@ -377,13 +355,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91095000" />
+    <option name="totallyTimeSpent" value="92217000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.48558423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23809524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -433,7 +410,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/components/__snapshots__/AddExpensePage.test.js.snap" />
     <entry file="file://$PROJECT_DIR$/src/test/components/__snapshots__/ExpenseDashboardPage.test.js.snap" />
     <entry file="file://$PROJECT_DIR$/src/test/components/AddExpensePage.test.js" />
     <entry file="file://$PROJECT_DIR$/src/test/components/__snapshots__/EditExpensePage.test.js.snap" />
@@ -716,10 +692,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
