@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4711261-8eca-4ebe-b7ab-3aa33603c02d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditExpensePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditExpensePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/actions/expenses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/actions/expenses.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/reducers/expenses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/reducers/expenses.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/components/EditExpensePage.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/EditExpensePage.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/public/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -51,7 +49,7 @@
           <entry key="development" value="4" />
           <entry key="gitignore" value="5" />
           <entry key="html" value="2" />
-          <entry key="js" value="164" />
+          <entry key="js" value="166" />
           <entry key="json" value="20" />
           <entry key="lock" value="1" />
           <entry key="log" value="2" />
@@ -65,7 +63,7 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="JSON" value="20" />
-          <entry key="JavaScript" value="161" />
+          <entry key="JavaScript" value="163" />
           <entry key="Jest Snapshot" value="22" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="17" />
@@ -78,7 +76,7 @@
           <entry key="development" value="183" />
           <entry key="gitignore" value="133" />
           <entry key="html" value="35" />
-          <entry key="js" value="21743" />
+          <entry key="js" value="22427" />
           <entry key="json" value="438" />
           <entry key="md" value="241" />
           <entry key="test" value="10" />
@@ -88,7 +86,7 @@
         <counts>
           <entry key="HTML" value="35" />
           <entry key="JSON" value="438" />
-          <entry key="JavaScript" value="21731" />
+          <entry key="JavaScript" value="22415" />
           <entry key="Markdown" value="241" />
           <entry key="PLAIN_TEXT" value="338" />
         </counts>
@@ -100,19 +98,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/expenses.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+            <state relative-caret-position="197">
+              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/actions/expenses.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/EditExpensePage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tests/actions/expenses.test.js">
+        <entry file="file://$PROJECT_DIR$/src/tests/components/EditExpensePage.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="107" column="10" lean-forward="true" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
+            <state relative-caret-position="224">
+              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,8 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/selectors/expenses.test.js" />
-        <option value="$PROJECT_DIR$/src/test/reducers/expenses.test.js" />
         <option value="$PROJECT_DIR$/src/Components/Header.js" />
         <option value="$PROJECT_DIR$/src/test/setupTests.js" />
         <option value="$PROJECT_DIR$/src/test/components/Header.test.js" />
@@ -177,6 +197,8 @@
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/actions/expenses.js" />
         <option value="$PROJECT_DIR$/src/tests/actions/expenses.test.js" />
+        <option value="$PROJECT_DIR$/src/components/EditExpensePage.js" />
+        <option value="$PROJECT_DIR$/src/tests/components/EditExpensePage.test.js" />
       </list>
     </option>
   </component>
@@ -196,7 +218,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -225,7 +247,7 @@
               <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
@@ -251,6 +273,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
@@ -387,7 +416,7 @@
       <workItem from="1563965819471" duration="6227000" />
       <workItem from="1563972319608" duration="4610000" />
       <workItem from="1563979482822" duration="1210000" />
-      <workItem from="1564139945210" duration="3305000" />
+      <workItem from="1564139945210" duration="4860000" />
     </task>
     <servers />
   </component>
@@ -397,13 +426,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97527000" />
+    <option name="totallyTimeSpent" value="99082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3110774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11229135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -455,13 +484,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/components/AddExpensePage.test.js" />
     <entry file="file://$PROJECT_DIR$/src/test/components/__snapshots__/EditExpensePage.test.js.snap" />
-    <entry file="file://$PROJECT_DIR$/src/components/EditExpensePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/fixtures/filters.js" />
     <entry file="file://$PROJECT_DIR$/src/test/components/__snapshots__/ExpenseListFilters.test.js.snap" />
     <entry file="file://$PROJECT_DIR$/src/test/components/EditExpensePage.test.js" />
@@ -547,11 +569,6 @@
         <state relative-caret-position="92">
           <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/components/EditExpensePage.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ExpenseDashboardPage.js">
@@ -734,17 +751,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/expenses.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        <state relative-caret-position="197">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/actions/expenses.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="107" column="10" lean-forward="true" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
+        <state relative-caret-position="234">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/EditExpensePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/components/EditExpensePage.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
